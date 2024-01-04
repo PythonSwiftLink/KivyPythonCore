@@ -35,8 +35,8 @@ abs_srcdir=	/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/build/python3/iph
 abs_builddir=	/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/build/python3/iphoneos-arm64/Python-3.11.6
 
 
-CC=		/var/folders/q4/3s60g5510ydbd3qc3p4xflm80000gn/T/tmppqun8xu0
-CXX=		/var/folders/q4/3s60g5510ydbd3qc3p4xflm80000gn/T/tmppfcdiuqy
+CC=		/var/folders/p0/1xzj5nz537928r0f675p7q400000gn/T/tmptkxj2h5p
+CXX=		/var/folders/p0/1xzj5nz537928r0f675p7q400000gn/T/tmp7xep22v6
 MAINCC=		$(CC)
 LINKCC=		$(PURIFY) $(MAINCC)
 AR=		/Applications/Xcode_15.0.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
@@ -211,9 +211,9 @@ LIBMPDEC_A= Modules/_decimal/libmpdec/libmpdec.a
 LIBEXPAT_A= Modules/expat/libexpat.a
 
 # OpenSSL options for setup.py so sysconfig can pick up AC_SUBST() vars.
-OPENSSL_INCLUDES=-I/usr/local/Cellar/openssl@3/3.1.3/include
+OPENSSL_INCLUDES=-I/usr/local/Cellar/openssl@3/3.2.0_1/include
 OPENSSL_LIBS=-lssl -lcrypto
-OPENSSL_LDFLAGS=-L/usr/local/Cellar/openssl@3/3.1.3/lib
+OPENSSL_LDFLAGS=-L/usr/local/Cellar/openssl@3/3.2.0_1/lib
 OPENSSL_RPATH=
 
 # Module state, compiler flags and linker flags
@@ -325,14 +325,14 @@ MODULE__BZ2_STATE=yes
 MODULE__BZ2_CFLAGS=
 MODULE__BZ2_LDFLAGS=-lbz2
 MODULE__LZMA_STATE=yes
-MODULE__LZMA_CFLAGS=-I/usr/local/Cellar/xz/5.4.4/include
-MODULE__LZMA_LDFLAGS=-L/usr/local/Cellar/xz/5.4.4/lib -llzma
+MODULE__LZMA_CFLAGS=-I/usr/local/Cellar/xz/5.4.5/include
+MODULE__LZMA_LDFLAGS=-L/usr/local/Cellar/xz/5.4.5/lib -llzma
 MODULE__SSL_STATE=yes
-MODULE__SSL_CFLAGS=-I/usr/local/Cellar/openssl@3/3.1.3/include
-MODULE__SSL_LDFLAGS=-L/usr/local/Cellar/openssl@3/3.1.3/lib  -lssl -lcrypto
+MODULE__SSL_CFLAGS=-I/usr/local/Cellar/openssl@3/3.2.0_1/include
+MODULE__SSL_LDFLAGS=-L/usr/local/Cellar/openssl@3/3.2.0_1/lib  -lssl -lcrypto
 MODULE__HASHLIB_STATE=yes
-MODULE__HASHLIB_CFLAGS=-I/usr/local/Cellar/openssl@3/3.1.3/include
-MODULE__HASHLIB_LDFLAGS=-L/usr/local/Cellar/openssl@3/3.1.3/lib   -lcrypto
+MODULE__HASHLIB_CFLAGS=-I/usr/local/Cellar/openssl@3/3.2.0_1/include
+MODULE__HASHLIB_LDFLAGS=-L/usr/local/Cellar/openssl@3/3.2.0_1/lib   -lcrypto
 MODULE__TESTCAPI_STATE=yes
 MODULE__TESTCLINIC_STATE=yes
 MODULE__TESTINTERNALCAPI_STATE=yes
@@ -356,7 +356,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 'CC=/var/folders/q4/3s60g5510ydbd3qc3p4xflm80000gn/T/tmppqun8xu0' 'LD=/Applications/Xcode_15.0.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld' 'CFLAGS=-O3 -miphoneos-version-min=9.0 -I/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/include/iphoneos-arm64/ffi -I/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/include/iphoneos-arm64/openssl -I/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/include/iphoneos-arm64  --sysroot=/Applications/Xcode_15.0.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk' 'LDFLAGS=-arch arm64 -L/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/lib/iphoneos -L/Applications/Xcode_15.0.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/usr/lib -miphoneos-version-min=9.0 -undefined dynamic_lookup' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' 'ac_cv_little_endian_double=yes' 'ac_cv_func_memrchr=no' 'ac_cv_func_getentropy=no' 'ac_cv_func_getresuid=no' 'ac_cv_func_getresgid=no' 'ac_cv_func_setresgid=no' 'ac_cv_func_setresuid=no' 'ac_cv_func_plock=no' 'ac_cv_func_dup3=no' 'ac_cv_func_pipe2=no' 'ac_cv_func_preadv=no' 'ac_cv_func_pwritev=no' 'ac_cv_func_preadv2=no' 'ac_cv_func_pwritev2=no' 'ac_cv_func_mkfifoat=no' 'ac_cv_func_mknodat=no' 'ac_cv_func_posix_fadvise=no' 'ac_cv_func_posix_fallocate=no' 'ac_cv_func_sigwaitinfo=no' 'ac_cv_func_sigtimedwait=no' 'ac_cv_func_clock_settime=no' 'ac_cv_func_pthread_getcpuclockid=no' 'ac_cv_func_sched_setscheduler=no' 'ac_cv_func_sched_setparam=no' 'ac_cv_func_clock_gettime=no' 'ac_cv_func_rtpSpawn=no' 'ac_cv_func_fdwalk=no' 'ac_cv_func_futimesat=no' 'ac_cv_func_copy_file_range=no' 'ac_cv_func_fexecve=no' 'ac_cv_func_execve=no' 'ac_cv_func_sched_rr_get_interval=no' 'ac_cv_func_explicit_bzero=no' 'ac_cv_func_explicit_memset=no' 'ac_cv_func_close_range=no' 'ac_cv_search_crypt_r=no' 'ac_cv_func_fork1=no' 'ac_cv_func_system=no' 'ac_cv_func_clock_nanosleep=no' 'ac_cv_func_splice=no' 'ac_cv_func_mremap=no' '--host=aarch64-apple-ios' '--build=x86_64-apple-darwin' '--with-build-python=/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/hostpython3/bin/python3' '--prefix=/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/root/python3' '--without-ensurepip' '--with-system-ffi' '--enable-ipv6' 'PYTHON_FOR_BUILD=_PYTHON_PROJECT_BASE=$(abs_builddir)                     _PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM)                     PYTHONPATH=$(shell test -f pybuilddir.txt && echo $(abs_builddir)/`cat pybuilddir.txt`:)$(srcdir)/Lib                    _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH)                    /Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/hostpython3/bin/python' 'build_alias=x86_64-apple-darwin' 'host_alias=aarch64-apple-ios'
+CONFIG_ARGS=	 'CC=/var/folders/p0/1xzj5nz537928r0f675p7q400000gn/T/tmptkxj2h5p' 'LD=/Applications/Xcode_15.0.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld' 'CFLAGS=-O3 -miphoneos-version-min=9.0 -I/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/include/iphoneos-arm64/ffi -I/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/include/iphoneos-arm64/openssl -I/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/include/iphoneos-arm64  --sysroot=/Applications/Xcode_15.0.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk' 'LDFLAGS=-arch arm64 -L/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/lib/iphoneos -L/Applications/Xcode_15.0.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/usr/lib -miphoneos-version-min=9.0 -undefined dynamic_lookup' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' 'ac_cv_little_endian_double=yes' 'ac_cv_func_memrchr=no' 'ac_cv_func_getentropy=no' 'ac_cv_func_getresuid=no' 'ac_cv_func_getresgid=no' 'ac_cv_func_setresgid=no' 'ac_cv_func_setresuid=no' 'ac_cv_func_plock=no' 'ac_cv_func_dup3=no' 'ac_cv_func_pipe2=no' 'ac_cv_func_preadv=no' 'ac_cv_func_pwritev=no' 'ac_cv_func_preadv2=no' 'ac_cv_func_pwritev2=no' 'ac_cv_func_mkfifoat=no' 'ac_cv_func_mknodat=no' 'ac_cv_func_posix_fadvise=no' 'ac_cv_func_posix_fallocate=no' 'ac_cv_func_sigwaitinfo=no' 'ac_cv_func_sigtimedwait=no' 'ac_cv_func_clock_settime=no' 'ac_cv_func_pthread_getcpuclockid=no' 'ac_cv_func_sched_setscheduler=no' 'ac_cv_func_sched_setparam=no' 'ac_cv_func_clock_gettime=no' 'ac_cv_func_rtpSpawn=no' 'ac_cv_func_fdwalk=no' 'ac_cv_func_futimesat=no' 'ac_cv_func_copy_file_range=no' 'ac_cv_func_fexecve=no' 'ac_cv_func_execve=no' 'ac_cv_func_sched_rr_get_interval=no' 'ac_cv_func_explicit_bzero=no' 'ac_cv_func_explicit_memset=no' 'ac_cv_func_close_range=no' 'ac_cv_search_crypt_r=no' 'ac_cv_func_fork1=no' 'ac_cv_func_system=no' 'ac_cv_func_clock_nanosleep=no' 'ac_cv_func_splice=no' 'ac_cv_func_mremap=no' '--host=aarch64-apple-ios' '--build=x86_64-apple-darwin' '--with-build-python=/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/hostpython3/bin/python3' '--prefix=/Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/root/python3' '--without-ensurepip' '--with-system-ffi' '--enable-ipv6' 'PYTHON_FOR_BUILD=_PYTHON_PROJECT_BASE=$(abs_builddir)                     _PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM)                     PYTHONPATH=$(shell test -f pybuilddir.txt && echo $(abs_builddir)/`cat pybuilddir.txt`:)$(srcdir)/Lib                    _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH)                    /Users/runner/work/KivyCoreBuilder/KivyCoreBuilder/dist/hostpython3/bin/python' 'build_alias=x86_64-apple-darwin' 'host_alias=aarch64-apple-ios'
 
 
 # Subdirectories with code
